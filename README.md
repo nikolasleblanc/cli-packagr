@@ -56,7 +56,15 @@ From the root of the project:
 
 ### Registering the module with `public_api.ts`
 
-`export * from './src/app/modules/input/input.module';`
+`export * from './src/app/modules/button/button.module';`
+
+### Exporting the component from the module
+
+```
+exports: [
+  ButtonComponent
+]
+```
 
 ## Why all the fuss?
 
